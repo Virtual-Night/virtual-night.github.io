@@ -1,0 +1,269 @@
+@font-face {
+    font-family: Ubuntu_Medium;
+    src: url('https://raw.githubusercontent.com/NotTheOnlyRph/NSMBC.github.io/refs/heads/main/mods/New%20Mini%20SMB/assets/Ubuntu-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url('https://raw.githubusercontent.com/NotTheOnlyRph/NSMBC.github.io/refs/heads/main/mods/New%20Mini%20SMB/assets/Ubuntu-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('https://raw.githubusercontent.com/NotTheOnlyRph/NSMBC.github.io/refs/heads/main/mods/New%20Mini%20SMB/assets/Ubuntu-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+
+	background: url(file:///home/rph/Documents/mkvn/assets/backgrounds/mkvn_checkboard.webp) no-repeat center fixed;
+	background-size: cover;
+}
+
+
+
+
+
+.navbar {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width:98%;
+	font-family:Ubuntu;
+	font-size:200%;
+	margin-bottom:2rem;
+	top: 0;
+	z-index:10;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 30px;
+	overflow: hidden;
+	height: 7rem;
+	border-radius:25px;
+	background: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(5px);
+
+}
+
+
+.navbar_inside {
+
+	display:flex;
+	flex-direction: row;	
+	gap: 1.5rem;
+	color:#FFFFFF;
+	padding: 2rem;	
+}
+
+.navbar_l {
+
+	text-align:left;
+	flex-shrink:0;
+}
+
+.navbar_m{
+
+	flex-grow:1;
+}
+
+.navbar_r{
+
+	margin-top:5px;
+	text-align:right;
+	flex-shrink:0;
+}
+
+.downloadButton {
+
+	width:auto;
+	box-shadow:  inset -2px -2px 5px rgba(0, 0, 0, 0.33), inset 2px 2px 5px rgba(255, 255, 255, 0.33);
+	background: linear-gradient(90deg, var(--mkvn-purple) 2.84%, var(--mkvn-green) 99.18%);
+	border-radius: 18px;
+	border: none;
+	margin-top: -5px;
+	padding: 0.75rem;
+	display: inline-block;
+	color: #FFF;
+	cursor: pointer;
+	text-align:left;
+	transition: ease 0.5s;
+	font-size:100%;
+}
+
+
+
+
+
+
+.nolink {
+
+	text-decoration:none;
+	color:#FFF;
+
+}
+
+
+.mainpage{
+
+	padding-top: 100px;
+	overflow: hidden;
+ }
+
+
+
+.MKVNbutton {
+
+	width:100%;
+	box-sizing: border-box;
+	display:block;
+	box-shadow:  inset -2px -2px 5px rgba(0, 0, 0, 0.33), inset 2px 2px 5px rgba(255, 255, 255, 0.33);
+	background: linear-gradient(90deg, var(--mkvn-purple) 2.84%, var(--mkvn-green) 99.18%);
+	border-radius: 18px;
+	border: none;
+	padding: 2rem;
+	color: #FFF;
+	text-align:left;
+	transition: ease 0.5s;
+	font-size:80%;
+	margin-bottom: 30px;
+}
+
+
+.whiteButton {
+
+	cursor:pointer;
+	background: #FFFFFFE4;
+	border-radius: 12px;
+	padding:0.5rem;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	color: #000;
+	font-size:130%;
+}
+
+
+
+.buttonTitle {
+
+	font-size:250%;
+	font-family: Ubuntu_Medium;
+	font-weight: bold;
+	
+}
+
+.buttonSubtitle {
+
+	font-family: Ubuntu;
+	font-size:150%;
+	font-weight: bold;
+	
+}
+
+.buttonSubtitle2 {
+
+	font-family: Ubuntu_Medium;
+	font-size:125%;
+	
+}
+
+.moon_logo {
+
+	margin-top: -1rem;
+	height:80px;
+	width:auto;
+
+}
+
+.MKVN_Title_Logo {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:60%;
+
+}
+
+.container-row {
+
+	display:flex;
+	flex-direction: row;	
+	gap: 1.5rem;
+	padding: 1rem;	
+}
+
+.container-column {
+
+	display:flex;
+	flex-direction: column;	
+	gap: 1.5rem;
+	padding: 1rem;	
+}
+
+.container_resizable {
+	
+	flex-grow:1;
+
+}
+
+.container_notresizable {
+	
+	flex-shrink:0;
+
+}
+
+
+.main-box {
+
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	background: rgba(0, 0, 0, 0);
+	border-radius:25px;
+	backdrop-filter: blur(10px);
+
+}
+
+.text-box {
+
+	padding: 1.5rem;
+	padding-top:2rem;
+	
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	font-family:Poppins;
+	color: #FFFFFF;
+	text-align:center;
+	font-size:150%;
+
+}
+
+
+
+.footer {
+
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 150%;
+	color: #FFFFFF;
+
+}
+
+
+:root {
+
+	--mkvn-green:#30f000;
+	--mkvn-purple:#a700f0;
+
+}

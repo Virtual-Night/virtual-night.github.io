@@ -1,20 +1,20 @@
 @font-face {
     font-family: Ubuntu_Medium;
-    src: url('https://raw.githubusercontent.com/NotTheOnlyRph/NSMBC.github.io/refs/heads/main/mods/New%20Mini%20SMB/assets/Ubuntu-Medium.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Ubuntu;
-    src: url('https://raw.githubusercontent.com/NotTheOnlyRph/NSMBC.github.io/refs/heads/main/mods/New%20Mini%20SMB/assets/Ubuntu-Medium.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Poppins;
-    src: url('https://raw.githubusercontent.com/NotTheOnlyRph/NSMBC.github.io/refs/heads/main/mods/New%20Mini%20SMB/assets/Ubuntu-Medium.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,12 +23,17 @@
 
 body {
 
-	background: url(file:///home/rph/Documents/mkvn/assets/backgrounds/mkvn_checkboard.webp) no-repeat center fixed;
+	background: url(https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/backgrounds/mkvn_checkboard.webp) no-repeat center fixed;
 	background-size: cover;
 }
 
 
+h1 {
 
+	font-weight: bold;
+	font-size: 300%;
+
+}
 
 
 .navbar {

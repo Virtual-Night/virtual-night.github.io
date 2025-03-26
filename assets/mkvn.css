@@ -144,8 +144,9 @@ h1 {
 
 .whiteButton {
 
+	box-shadow:  inset -2px -2px 5px rgba(0, 0, 0, 0.33), inset 10px 20px 5px rgba(255, 255, 255, 0.33);
 	cursor:pointer;
-	background: #FFFFFFE4;
+	background: #FFFFFFFF;
 	border-radius: 12px;
 	padding:0.5rem;
 	border: none;

@@ -53,13 +53,13 @@ h1 {
 	font-family:Ubuntu;
 	font-size:200%;
 	z-index:10;
-	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.33), inset 0px 5px 5px rgba(255, 255, 255, 0.33);
+	box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.33), inset 0px 10px 10px rgba(255, 255, 255, 0.48)
 }
 
 
 .navbar_inside {
 
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(25px);
 	display:flex;
 	flex-direction: row;	
 	gap: 1.5rem;
@@ -129,7 +129,7 @@ h1 {
 	backdrop-filter: blur(10px);
 	box-sizing: border-box;
 	display:block;
-	box-shadow:  inset -2px -2px 20px rgba(0, 0, 0, 0.33), inset 10px 20px 20px rgba(255, 255, 255, 0.33);
+	box-shadow: inset -10px -10px 30px rgba(0, 0, 0, 0.28), inset 10px 10px 30px rgba(255, 255, 255, 0.28);
 	background: linear-gradient(90deg, var(--mkvn-purple) 2.84%, var(--mkvn-green) 99.18%);
 	border-radius: 18px;
 	border: none;

@@ -1,3 +1,8 @@
+@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io/assets/main.css");
+@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io/assets/navbar.css");
+@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io/assets/home.css");
+@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io/assets/buttons.css");
+
 @font-face {
     font-family: Ubuntu_Medium;
     src: url('https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
@@ -20,257 +25,23 @@
 }
 
 
+:root {
 
-body {
-
-	background: url(https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/backgrounds/mkvn_checkboard.webp) no-repeat center fixed;
-	background-size: cover;
-}
-
-
-h1 {
-
-	font-weight: bold;
-	font-size: 300%;
-
-}
-
-
-.navbar {
-	
-	margin-left: auto;
-	margin-right: auto;
-	width:98%;
-	margin-bottom:2rem;
-	border-radius:25px;
-	overflow: hidden;
-	top: 1.5rem;
-	position: -webkit-sticky; /* Safari */
-	position: sticky;
-	height: 7rem;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.17));
-	
-	font-family:Ubuntu;
-	font-size:200%;
-	z-index:10;
-	box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.33), inset 0px 10px 10px rgba(255, 255, 255, 0.48)
-}
-
-
-.navbar_inside {
-
-	backdrop-filter: blur(25px);
-	display:flex;
-	flex-direction: row;	
-	gap: 1.5rem;
-	color:#FFFFFF;
-	padding: 2rem;	
-}
-
-.navbar_l {
-
-	text-align:left;
-	flex-shrink:0;
-}
-
-.navbar_m{
-
-	flex-grow:1;
-}
-
-.navbar_r{
-
-	margin-top:5px;
-	text-align:right;
-	flex-shrink:0;
-}
-
-.downloadButton {
-
-	width:auto;
-	box-shadow:  inset -2px -2px 5px rgba(0, 0, 0, 0.33), inset 2px 2px 5px rgba(255, 255, 255, 0.33);
-	background: linear-gradient(90deg, var(--mkvn-purple) 2.84%, var(--mkvn-green) 99.18%);
-	border-radius: 18px;
-	border: none;
-	margin-top: -5px;
-	padding: 0.75rem;
-	display: inline-block;
-	color: #FFF;
-	cursor: pointer;
-	text-align:left;
-	transition: ease 0.5s;
-	font-size:100%;
-}
-
-
-
-
-
-
-.nolink {
-
-	text-decoration:none;
-	color:#FFF;
-
-}
-
-
-.mainpage{
-
-	padding-top: 100px;
-	overflow: hidden;
- }
-
-
-
-.MKVNbutton {
-
-	width:100%;
-	backdrop-filter: blur(10px);
-	box-sizing: border-box;
-	display:block;
-	box-shadow: inset -10px -10px 30px rgba(0, 0, 0, 0.28), inset 10px 10px 30px rgba(255, 255, 255, 0.28);
-	background: linear-gradient(90deg, var(--mkvn-purple) 2.84%, var(--mkvn-green) 99.18%);
-	border-radius: 18px;
-	border: none;
-	padding: 2rem;
-	color: #FFF;
-	text-align:left;
-	transition: ease 0.5s;
-	font-size:80%;
-	margin-bottom: 30px;
-}
-
-
-.whiteButton {
-
-	box-shadow:  inset -2px -2px 5px rgba(0, 0, 0, 0.33), inset 10px 20px 5px rgba(255, 255, 255, 0.33);
-	cursor:pointer;
-	background: #FFFFFFFF;
-	border-radius: 12px;
-	padding:0.5rem;
-	border: none;
-	text-align: center;
-	display: inline-block;
-	color: #000;
-	font-size:130%;
-}
-
-
-
-.buttonTitle {
-
-	font-size:250%;
-	font-family: Ubuntu_Medium;
-	font-weight: bold;
+	--mkvn-green: 51, 255, 0;
+	--mkvn-purple: 177, 0, 255;
 	
 }
 
-.buttonSubtitle {
-
-	font-family: Ubuntu;
-	font-size:150%;
-	font-weight: bold;
-	
-}
-
-.buttonSubtitle2 {
-
-	font-family: Ubuntu_Medium;
-	font-size:125%;
-	
-}
-
-.moon_logo {
-
-	margin-top: -1rem;
-	height:80px;
-	width:auto;
-
-}
-
-.MKVN_Title_Logo {
-
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width:60%;
-
-}
-
-.container-row {
-
-	display:flex;
-	flex-direction: row;	
-	gap: 1.5rem;
-	padding: 1rem;	
-}
-
-.container-column {
-
-	display:flex;
-	flex-direction: column;	
-	gap: 1.5rem;
-	padding: 1rem;	
-}
-
-.container_resizable {
-	
-	flex-grow:1;
-
-}
-
-.container_notresizable {
-	
-	flex-shrink:0;
-
-}
-
-
-.main-box {
-
-	width: 93%;
-	margin-left: auto;
-	margin-right: auto;
-	display:block;
-	background: rgba (255, 255, 255, 0.12);
-	border-radius:25px;
-	backdrop-filter: blur(5px);
-
-}
-
-.text-box {
-
-	padding: 1.5rem;
-	padding-top:2rem;
-	
-	margin-left: auto;
-	margin-right: auto;
-	display:block;
-	font-family:Poppins;
-	color: #FFFFFF;
-	text-align:center;
-	font-size:150%;
-
-}
 
 
 
-.footer {
 
-	margin-top: 40px;
-	margin-bottom: 40px;
+
+#footer {
+
+	margin: 5rem auto;
 	text-align: center;
 	font-family: Ubuntu;
 	font-size: 150%;
 	color: #FFFFFF;
-
-}
-
-
-:root {
-
-	--mkvn-green: #33ff0085;
-	--mkvn-purple:#b100ff85;
-
 }

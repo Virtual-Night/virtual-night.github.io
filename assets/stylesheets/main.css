@@ -1,0 +1,121 @@
+body {
+
+	background: url(https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/backgrounds/mkvn_checkboard.webp) no-repeat center fixed;
+	background-size: cover;
+}
+
+
+
+
+/* Page layout */
+
+
+
+
+
+
+.mainpage{
+
+	padding-top: 100px;
+	overflow: hidden;
+ }
+
+.main-box {
+
+	width: 93%;
+	max-width: 93%;
+
+	margin: 0 auto;
+	
+	display:block;
+	
+	border-radius:25px;
+
+}
+
+.MKVN_Title_Logo {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:60%;
+
+}
+
+
+
+
+
+/* Text layout */
+
+
+.text-box {
+
+	padding: 1.5rem;
+	
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	font-family:Poppins;
+	color: #FFFFFF;
+	text-align:center;
+	font-size:150%;
+
+}
+
+
+
+h1 {
+
+	font-weight: bold;
+	font-size: 300%;
+
+}
+
+.nolink {
+
+	text-decoration:none;
+	color:#FFF;
+
+}
+
+
+
+
+
+
+
+
+/* Containers */
+
+
+
+
+
+.container-row {
+
+	display:flex;
+	flex-direction: row;	
+	gap: 1.5rem;
+	padding: 1rem;	
+}
+
+.container-column {
+
+	display:flex;
+	flex-direction: column;	
+	gap: 1.5rem;
+	padding: 1rem;	
+}
+
+.container_resizable {
+	
+	flex-grow:1;
+
+}
+
+.container_notresizable {
+	
+	flex-shrink:0;
+
+}

@@ -1,25 +1,25 @@
-@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io/assets/main.css");
-@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io/assets/navbar.css");
-@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io/assets/home.css");
-@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io/assets/buttons.css");
+@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io@edb5264/assets/stylesheets/main.css");
+@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io@edb5264/assets/stylesheets/navbar.css");
+@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io@edb5264/assets/stylesheets/home.css");
+@import url("https://cdn.jsdelivr.net/gh/Virtual-Night/virtual-night.github.io@edb5264/assets/stylesheets/buttons.css");
 
 @font-face {
     font-family: Ubuntu_Medium;
-    src: url('https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/Virtual-Night/virtual-night.github.io/refs/heads/main/assets/fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Ubuntu;
-    src: url('https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/Virtual-Night/virtual-night.github.io/refs/heads/main/assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Poppins;
-    src: url('https://raw.githubusercontent.com/Virtual-Night/Vnight/refs/heads/main/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/Virtual-Night/virtual-night.github.io/refs/heads/main/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

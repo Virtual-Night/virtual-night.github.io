@@ -2,6 +2,7 @@
 @import url("https://virtual-night.github.io/assets/stylesheets/navbar.css");
 @import url("https://virtual-night.github.io/assets/stylesheets/home.css");
 @import url("https://virtual-night.github.io/assets/stylesheets/buttons.css");
+@import url("https://virtual-night.github.io/assets/stylesheets/footer.css");
 
 @font-face {
     font-family: Ubuntu_Medium;
@@ -30,18 +31,4 @@
 	--mkvn-green: 51, 255, 0;
 	--mkvn-purple: 177, 0, 255;
 	
-}
-
-
-
-
-
-
-#footer {
-
-	margin: 5rem auto;
-	text-align: center;
-	font-family: Ubuntu;
-	font-size: 150%;
-	color: #FFFFFF;
 }

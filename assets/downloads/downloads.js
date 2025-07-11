@@ -28,10 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const containerEl = document.getElementById(id);
     if (!containerEl) {
       console.error(`Can't find element with id « ${id} »`);
-      continue; // on poursuit malgré l'erreur
+      continue;
     }
 
-    fetch(projectPath)
+    fetch(versionPath)
       .then(response => {
         if (!response.ok) {
           throw new Error(`Error loading ${versionPath} : ${response.status}`);
